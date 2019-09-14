@@ -11,29 +11,74 @@
 
 <body>
     <header>
-        <nav>
-            <img src="./assets/image/logo.png" alt="Welcome to my platform">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="./index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+            <span class="border border-success">
+                <img src="./assets/image/logo.png" class="img-fluid" alt="Welcome to my platform">
+            </span>
+
+            <ul class="nav nav-pills justify-content-end">
+                <li class="nav-item"><a class="nav-link active" href="./index.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
             </ul>
         </nav>
+        <nav class="navbar navbar-light bg-light">
+            <form class="form-inline float-right">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
     </header>
+
+    <br>
+
     <main>
+        <div class="container">
+            <!--Row1-->
+            <div class="row">
+                <!--Col1-->
+                <div class="offset-md-2 col-md-8">
+                    <div class="jumbotron">
+                        <div class="offset-md-3 col-md-6">
+                            <img src="./assets/image/iqra007.jpg" class="img-fluid" alt="my pic">
+                        </div>
 
+                        <div class="media-body">
+                            <h1 class="d-flex justify-content-center"> Hey, I am Aswif</h1>
+                            <br>
+                            <p class="lead d-flex justify-content-center"> The following are my sphere expertise:</p>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-danger">• Industrial Engineer with experience in the airline and telecommunications industries</li>
+                            <li class="list-group-item list-group-item-warning">• Strong mathematical skills applied to fleet design, and <a href="#" class="text-warning stretched-link">Optimization Modeling</a></li>
+                            <li class="list-group-item list-group-item-info">• <a href="#" class="text-warning stretched-link">Computer Programing</a> and Networking abilities</li>
+                            <li class="list-group-item list-group-item-success">• SAP Enterprise Resource Planning (ERP), and Scheduling and Systems Simulation</li>
+                            <li class="list-group-item list-group-item-dark">• Optimization Algorithms using <a href="#" class="text-warning stretched-link">Metaheuristics Methods</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-
-
-    </footer>
-
 </body>
+
+<hr class="my-4">
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-3 col-md-6">
+                <div class="d-flex justify-content-center">
+                    <div class="alert alert-warning" role="alert">
+                        <p>© 2019 All Rights Reserved ... Aswif Aunali</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>
